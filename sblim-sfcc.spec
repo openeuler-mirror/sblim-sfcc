@@ -6,7 +6,7 @@ License: EPL
 URL: http://www.sblim.org
 Source0: http://downloads.sourceforge.net/project/sblim/%{name}/%{name}-%{version}.tar.bz2
 
-BuildRequires: curl-devel gcc chrpath gcc-c++
+BuildRequires: libcurl-devel gcc chrpath gcc-c++
 
 %Description
 The small footprint CIM client library is a C API allowing client applications
